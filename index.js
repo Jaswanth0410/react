@@ -1,5 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './style.css'
+import Header from './Header.js'
+import MainContent from './Maincontent.js'
+import Footer from './footer.js'
+
 
 // const navbar = (
 //     <nav>
@@ -49,36 +54,6 @@ import ReactDOM from 'react-dom/client';
 // const root = ReactDOM.createRoot(Page);
 // root.render(page1);
 
-function Header(){
-    return(
-        <header>
-                <nav>
-                    <img src="./logo512.png" alt="logo" width="40px" />
-                </nav>
-            </header>
-    )
-}
-function MainContent() {
-    return (
-        <div>
-            
-            <h1>Reasons I'm Exicted to learn react</h1>
-            <ol>
-                <li>Its a popular library,so I'll abe to fit with the cool kids!</li>
-                <li>I'm more ikely to get a job as a deveoper if I know React</li>
-            </ol>
-            
-        </div>
-    ) 
-}
-
-function Footer(){
-    return(
-        <footer>
-                <small>@2024 .All rights reserved</small>
-        </footer>
-    )
-}
 
 function Page(){
     return(
