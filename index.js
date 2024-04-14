@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style.css'
-import Header from './Header.js'
-import MainContent from './Maincontent.js'
-import Footer from './footer.js'
+// import Header from './Header.js'
+// import MainContent from './Maincontent.js'
+// import Footer from './footer.js'
+import Main from './Main';
+import Navbar from './Navbar';
 
 
 // const navbar = (
@@ -55,16 +57,30 @@ import Footer from './footer.js'
 // root.render(page1);
 
 
+// function Page(){
+//     return(
+//         <div>
+//             <Header />
+//             <MainContent />
+//             <Footer />
+            
+//         </div>
+//     )
+// }
+// const page = document.getElementById('root');
+// const root = ReactDOM.createRoot(page);
+// root.render(<Page />);
+
 function Page(){
     return(
         <div>
-            <Header />
-            <MainContent />
-            <Footer />
-            
+            <Navbar /> 
+            <Main />           
         </div>
     )
 }
+
 const page = document.getElementById('root');
 const root = ReactDOM.createRoot(page);
 root.render(<Page />);
+
