@@ -63,14 +63,38 @@ import './app.css'
 // }
 // console.log(greeting("Bob"))
 
-export default App() {
-    const state = "Yes"
-    return(
-        <div className='state'>
-            <h1 className='state-title'>Is state Important to know</h1>
-            <div className='state-value'>
-                <h1>Yes</h1>
-            </div>
-        </div>
-    )
-}
+// export default function App() {
+//     const [isImportant,func] = React.useState("Yes")
+//     console.log(isImportant)
+//     return (
+//         <div className="state">
+//             <h1 className="state--title">Is state important to know?</h1>
+//             <div className="state--value">
+//                 <h1>{isImportant}</h1>
+//             </div>
+//         </div>
+//     )
+// }
+
+// Counter
+// export default function App(){
+//     const [count, setCount] = React.useState(0)
+
+//     function add(){
+//         setCount(count +1)
+//     }
+
+//     function subtract(){
+//         setCount(count -1)
+//     }
+
+//     return(
+//         <div className='counter'>
+//             <button className='counter-minus' onClick={subtract}>-</button>
+//             <div className='counter-count'>
+//                 <h1>{count}</h1>
+//             </div>
+//             <button className='counter-plus' onClick={add}>+</button>
+//         </div>
+//     )
+// }
